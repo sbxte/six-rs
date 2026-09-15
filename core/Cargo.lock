@@ -325,15 +325,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
 
 [[package]]
-name = "example_tandai_hadir"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "dotenvy",
- "six_rs",
-]
-
-[[package]]
 name = "fastrand"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1501,7 +1492,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8ee5873ec9cce0195efcb7a4e9507a04cd49aec9c83d0389df45b1ef7ba2e649"
 
 [[package]]
-name = "six_rs"
+name = "six_client"
 version = "0.1.0"
 dependencies = [
  "chrono",

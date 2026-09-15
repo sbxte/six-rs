@@ -1,24 +1,3 @@
-[package]
-name = "six_client"
-version = "0.1.0"
-edition = "2024"
-
-[lib]
-path = "src/lib.rs"
-name = "libsixclient"
-
-[[bin]]
-path = "src/main.rs"
-name = "sixclient"
-
-[dependencies]
-chrono = { version = "0.4.45", default-features = false, features = ["now"] }
-dotenvy = "0.15.7"
-reqwest = { version = "0.13.4", features = [
-	"blocking",
-	"cookies",
-	"query",
-	"form",
-] }
-scraper = "0.27.0"
-url = "2.5.8"
+[workspace]
+resolver = "3"
+members = ["core", "examples/example_tandai_hadir"]
