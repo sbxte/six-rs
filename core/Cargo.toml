@@ -5,7 +5,7 @@ edition = "2024"
 
 [lib]
 path = "src/lib.rs"
-name = "libsixclient"
+name = "sixrs"
 
 [dependencies]
 chrono = { version = "0.4.45", default-features = false, features = ["now"] }

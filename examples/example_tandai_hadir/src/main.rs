@@ -1,6 +1,6 @@
 use chrono::Datelike as _;
 use dotenvy::dotenv;
-use libsixclient::{
+use sixrs::{
     fetch_cal_base, fetch_cal_path, get_calevents_today, get_client, get_curr_or_next_calevent,
     is_valid_login_cookie, now_with_offset, tandai_hadir,
 };
